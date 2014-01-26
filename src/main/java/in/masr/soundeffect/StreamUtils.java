@@ -16,7 +16,7 @@ public class StreamUtils {
 			FileInputStream fis = new FileInputStream(file);
 			BufferedInputStream bis = new BufferedInputStream(fis);
 			// open the audio input stream
-			AudioInputStream stream = AudioSystem.getAudioInputStream(file);
+			AudioInputStream stream = AudioSystem.getAudioInputStream(bis);
 			return stream;
 		} catch (UnsupportedAudioFileException ex) {
 			ex.printStackTrace();
