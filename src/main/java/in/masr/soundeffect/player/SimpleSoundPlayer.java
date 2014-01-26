@@ -25,8 +25,7 @@ public class SimpleSoundPlayer {
 
 	public static void main(String[] args) {
 
-		File file = new File(
-				"/home/coolmore/Desktop/JavaSoundDemo/audio/1-welcome.wav");
+		File file = new File("audio/1-welcome.wav");
 
 		AudioInputStream stream = StreamUtils.getAudioStream(file);
 
